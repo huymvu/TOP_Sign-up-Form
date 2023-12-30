@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP:Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="logo-side">
+            <div class="logo">
+                <img src="odin-lined.png" alt="Odin Logo">
+                ODIN
+            </div>
+            <div class="logo-side-footer">Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></div>
+        </div>
+        <div class="content-side">
+            <div class="section-one">
+                <p>This is not a real online service! You know you need something </br>
+                    like this in your life to help you realize your deepest dreams. </br>
+                    Sign up <i>now</i> to get started. </br>
+                    </br>
+                    You <i>know</i> you want to.</p>
+            </div>
+            <div class="section-two">
+                <div> Let's do this! </div>
+                <form action="#" method="get">
+                    <table>
+                        <tr>
+                            <th>
+                                <label for="first_name">FIRST NAME</label></br>
+                                <input type="text" id="first_name" name="first_name" minlength="3">
+                            </th>
+                            <th>
+                                <label for="last_name">LAST NAME</label></br>
+                                <input type="text" id="last_name" name="last_name" minlength="3">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="user_email">EMAIL</label></br>
+                                <input type="email" id="user_email" name="user_email" minlength="10">
+                            </th>
+                            <th>
+                                <label for="user_phone">PHONE NUMBER</label></br>
+                                <input type="tel" id="user_phone" name="user_phone" minlength="10">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="user_password">PASSWORD</label></br>
+                                <input class="error" type="password" id="user_password" name="user_password"
+                                    minlength="10">
+                                <!-- <span></span> -->
+                            </th>
+                            <th>
+                                <label for="confirm_password">CONFIRM PASSWORD</label></br>
+                                <input class="error" type="password" id="confirm_password" name="confirm_password"
+                                    minlength="10">
+                                <!-- <br><br> -->
+                            </th>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="section-three">
+                <button type="submit">Create Account</button>
+                <br><br>
+                <div> Already have an account? <a href="#">Log in</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
